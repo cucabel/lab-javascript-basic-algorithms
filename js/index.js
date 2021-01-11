@@ -34,7 +34,7 @@ for (let i = 0; i < Infinity; i++) {
   } else if (hacker1[i] < hacker2[i] || hacker2[i] === false) {
     console.log('The driver\'s name goes first.');
     break;
-  } else if (hacker2[i] > hacker1[i] || hacker1[i] === false) {
+  } else if (hacker2[i] < hacker1[i] || hacker1[i] === false) {
     console.log('The navigator goes first definitely.');
     break;
   }
